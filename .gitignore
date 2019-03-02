@@ -59,8 +59,12 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.idea/*
 /.idea/
 .idea/Advanced_JS.iml
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
+Advanced_JS.iml
+HomeWork_2/.gitignore
+HomeWork_2/HomeWork_2.js
