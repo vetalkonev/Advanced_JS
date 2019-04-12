@@ -1,10 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pizza</title>
 </head>
 <body>
+<header class="top-header">
+    <a href="#" class="nav-link">Navigation</a>
+    <nav class="header-menu">
+        <a href="#" class="header-menu-link">Pizza delivery</a>
+        <a href="#" class="header-menu-link">UA/UX Salads</a>
+        <a href="#" class="header-menu-link">Desserts</a>
+        <a href="#" class="header-menu-link">About Us</a>
+        <a href="#" class="header-menu-link">Contacts</a>
+    </nav>
+    <div class="menu-toggle">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="cross">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <img src="img/navigation-logo.svg" class="logo" alt="logo">
+</header>
+<section class="section-slogan">
+    <p class="slogan-text">All we need is Love.</p>
+    <p class="slogan-text">And pizza. Pizza is good</p>
+    <a href="http://www.new-pizza.com" class="web-site-link">www.new-pizza.com</a>
+</section>
+<section class="section-menu">
+    <div class="menu-list-items">
+        <a href="#" class="menu-list-item">
+            <div class="menu-item delivery">
+                <h1 class="menu-item-title">Pizza Delivery</h1>
+            </div>
+            <div class="menu-item-link"><i class="fas fa-chevron-right"></i></div>
+        </a>
+    </div>
+    <div class="menu-list-items">
+        <div class="menu-list-item">
+            <a href="#" class="menu-item salats">
+                <h2 class="menu-item-title">UA/UX Salads</h2>
+            </a>
+            <div class="menu-item-link"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </div>
+    <div class="menu-list-items">
+        <a href="#" class="menu-list-item">
+            <div class="menu-item desserts">
+                <h2 class="menu-item-title">Desserts</h2>
+            </div>
+            <div class="menu-item-link"><i class="fas fa-chevron-right"></i></div>
+        </a>
+    </div>
+</section>
 
+<section class="full-menu">
+    <div class="full-menu-header">
+        <div>
+            <h2 class="full-menu-top-title">neque ero ullamcorper sed</h2>
+            <p class="full-menu-top-paragraph">Ultrices cursus sit amet placerat tortor</p>
+        </div>
+        <img src="img/full-menu-top-icon.svg" class="full-menu-top-icon" alt="menu-icon">
+    </div>
+    <div class="full-menu-prices">
+
+        <div>
+            <h2 class="full-menu-title">Tincidunt at Mauris</h2>
+            <div class="container">
+                <div class="full-menu-category">
+                    <h3 class="full-menu-category-title">id hendrerit velit quis</h3>
+                    <div class="full-menu-category-img snow"></div>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Lass aptent taciti</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Nec fermentum nibh</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Eu dolor accumsan pharetra</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Non duis dictum eros nec</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category second">
+                    <h3 class="full-menu-category-title">id dolor Pellentesque</h3>
+                    <div class="full-menu-category-img glass"></div>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Lass aptent taciti</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Nec fermentum nibh</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="full-menu-title green">vestibulum augue et</h2>
+            <div class="container">
+                <div class="full-menu-category second">
+                    <h3 class="full-menu-category-title">augue Proin eleifend</h3>
+                    <div class="full-menu-category-img cup1"></div>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Lass aptent taciti</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Nec fermentum nibh</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Eu dolor accumsan pharetra</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Non duis dictum eros nec</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category second">
+                    <h3 class="full-menu-category-title">pharetra at sit amet sem</h3>
+                    <div class="full-menu-category-img cup2"></div>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Lass aptent taciti</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+                <div class="full-menu-category-item">
+                    <div class="full-menu-category-item-head">
+                        <h4 class="full-menu-category-item-head-title">· Nec fermentum nibh</h4>
+                        <p class="full-menu-category-item-head-price">$1200</p>
+                    </div>
+                    <p class="full-menu-category-item-description">Praesent hendrerit massa ut libero bibendum pulvinar.
+                        Pellenteue eget tortor dolor. Nam quis nunc et eros mollis facilisis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <img src="img/navigation-logo.svg" class="logo" alt="logo">
+    <div>
+        <p class="footer-text">Best pizza from 2018 year.&nbsp;</p>
+        <p class="footer-text">New UA/UX salads - not boring, only fun.</p>
+    </div>
+</footer>
+
+
+<script src="js/main.js"></script>
 </body>
 </html>
